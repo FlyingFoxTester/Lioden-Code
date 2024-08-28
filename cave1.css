@@ -1,0 +1,199 @@
+/* 
+CSS template originally created and presented by Kraft (#738/#1105)
+You may edit and use this code for personal or commercial use.
+This comment must remain at the top in all cases - it will not be visible on final upload.
+*/
+
+body {
+    background: url("https://i.ibb.co/M9bR4m5/Ballet-Painting-transformed.jpg") no-repeat;
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Keeps the background image fixed during scrolling */
+    color: #cbb8b2;
+}
+
+.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
+    color: #cbb8b2;
+}
+
+h1, h3 , .sidebar h3 {
+    font-family: Arial !important;
+    text-align: left;
+    color: #cbb8b2;
+    border-bottom: 1px solid #cbb8b2;
+}
+
+/* Buttons */
+input[type="button"], input[type="submit"], input[type="submit"]:hover {
+    background: #d8cfc9; /* Lighter shade of #cbb8b2 */
+    color: #3f3f3f; /* Darker shade of #cbb8b2 for contrast */
+    border: 1px solid #3f3f3f;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* Links */
+.table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
+    color: #3f3f3f; /* Darker shade of #cbb8b2 for contrast */
+}
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+    border-bottom: 1px solid #3f3f3f; /* Darker shade of #cbb8b2 */
+    color: #3f3f3f;
+}
+
+/* Topbar */
+.topbar {
+    background: #e4d8d2; /* Lighter shade of #cbb8b2 */
+    border: 1px solid #3f3f3f;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.badge {
+    background: #e4d8d2; /* Lighter shade of #cbb8b2 */
+    border: 1px solid #3f3f3f;
+}
+
+/* Navigational Bar */
+.main {
+    background: #d8cfc9; /* Lighter shade of #cbb8b2 */
+    border: 1px solid #3f3f3f;
+    box-shadow: none;
+}
+
+.navbar {
+    background: #d8cfc9; /* Lighter shade of #cbb8b2 */
+    border-bottom: 1px solid #3f3f3f;
+    color: #3f3f3f;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #3f3f3f; /* Darker shade of #cbb8b2 for contrast */
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #3f3f3f;
+    background: #e4d8d2; /* Lighter shade of #cbb8b2 */
+    border-left: 1px solid #3f3f3f;
+    border-right: 1px solid #3f3f3f;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #d8cfc9; /* Lighter shade of #cbb8b2 */
+    border: 1px solid #3f3f3f;
+    border-bottom: 1px solid #3f3f3f;
+    border-left: 1px solid #3f3f3f;
+    color: #3f3f3f; /* Darker shade of #cbb8b2 for contrast */
+}
+
+.col-md-3 .panel {
+    background: #e4d8d2; /* Lighter shade of #cbb8b2 */
+    border: 1px solid #3f3f3f;
+    box-shadow: none;    
+}
+
+.progress-bar {
+    background: #e4d8d2; /* Lighter shade of #cbb8b2 */
+}
+
+.progress {
+    background: #d8cfc9; /* Lighter shade of #cbb8b2 */
+    border: 1px solid #3f3f3f;
+}
+
+/* Chat */
+.chat_light, .chat_dark {
+    background: #d8cfc9; /* Lighter shade of #cbb8b2 */
+    font-size: 11px;
+    color: #3f3f3f; /* Darker shade of #cbb8b2 for contrast */
+}
+
+.chatContainer {
+    border: 1px solid #3f3f3f;
+}
+
+.userstolen {
+    background: none;
+}
+
+.alert-danger {
+    color: #3f3f3f; /* Darker shade of #cbb8b2 for contrast */
+    background: #e4d8d2; /* Lighter shade of #cbb8b2 */
+    border: 1px solid #3f3f3f;
+}
+
+.alert-success {
+    color: #3f3f3f; /* Darker shade of #cbb8b2 for contrast */
+    background: #e4d8d2; /* Lighter shade of #cbb8b2 */
+    border: 1px solid #3f3f3f;
+}
+
+.breadcrumb {
+    background: #d8cfc9; /* Lighter shade of #cbb8b2 */
+    font-size: 13px;
+    border: 1px solid #3f3f3f;
+}
+
+.breadcrumb>.active {
+    color: #3f3f3f; /* Darker shade of #cbb8b2 for contrast */
+}
+
+h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Carter One";
+    color: #3f3f3f; /* Darker shade of #cbb8b2 for contrast */
+}
+
+.col-md-9 {
+    background: none;
+    border: 0px solid #3f3f3f;
+}
+
+/* Tables */
+#lion_image {
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid #3f3f3f;
+}
+
+.table, .item {
+    border: 1px solid #3f3f3f;
+    background: #d8cfc9; /* Lighter shade of #cbb8b2 */
+    border-collapse: separate;
+}
+
+.table .right, .table .right_odd {
+    background: none;
+    border: 0px solid #3f3f3f;
+}
+
+div .feature, .cave-grid, div .left, .mound-grid, .table .bottom, .table .top, .table th, .item-header, .item-footer {
+    border: 0px solid #3f3f3f;
+    background: #e4d8d2; /* Lighter shade of #cbb8b2 */
+    color: #3f3f3f; /* Darker shade of #cbb8b2 for contrast */
+}
+
+.cave-grid, div .left, .mound-grid {
+    border: 1px solid #3f3f3f;
+    background: #e4d8d2; /* Lighter shade of #cbb8b2 */
+    color: #3f3f3f; /* Darker shade of #cbb8b2 for contrast */
+}
+
+.table .left {
+    border: 1px solid #3f3f3f;
+    background: #e4d8d2; /* Lighter shade of #cbb8b2 */
+    color: #3f3f3f; /* Darker shade of #cbb8b2 for contrast */
+}
+
+.inner-table .right {
+    background: #d8cfc9; /* Lighter shade of #cbb8b2 */
+    border: 1px solid #3f3f3f;
+    border-left: none;
+}
+
+/* 
+CSS template originally created and presented by Kraft (#738/#1105)
+*/
