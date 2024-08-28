@@ -3,12 +3,12 @@ CSS template originally created and presented by Kraft (#738/#1105)
 You may edit and use this code for personal or commercial use.
 This comment must remain at the top in all cases - it will not be visible on final upload.
 */
-
 body {
-    background: url("") fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #cbb8b2; /* Your cave color code */
+    background: url("https://i.ibb.co/kx15mLt/Ballet-Painting.jpg") no-repeat;
+    background-size: contain; /* Ensure the entire image is visible */
+    background-position: center top; /* Adjust image position */
+    background-attachment: fixed; /* Keeps the background image fixed during scrolling */
+    color: #cbb8b2;
 }
 
 .welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
