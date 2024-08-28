@@ -1,0 +1,192 @@
+
+
+body {
+    background: url("https://i.ibb.co/kx15mLt/Ballet-Painting.jpg") fixed; /* Updated background image URL */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #cbb8b2; /* Updated text color */
+}
+
+.welcomeback, .white, .bottomlinks li a:hover, .bottomlinks li a {
+    color: #cbb8b2; /* Updated link color */
+}
+
+h1, h3, .sidebar h3 {
+    font-family: Arial !important;
+    text-align: left;
+    color: #cbb8b2; /* Updated header color */
+    border-bottom: 1px solid #cbb8b2; /* Updated border color */
+}
+
+/* Buttons */
+input[type="button"], input[type="submit"], input[type="submit"]:hover {
+    background: #cbb8b2; /* Updated button background color */
+    color: #000;
+    border: 1px solid #000;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* Links */
+.table a:link, .table a:active, .table a:visited, .right a:link, .right a:active, .right a:visited, .bottom a:link, .bottom a:active, .bottom a:visited, .topbar a:link, .topbar a:visited, .topbar a:active, a:link, a:visited, a:active {
+    color: #cbb8b2; /* Updated link color */
+}
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited {
+    border-bottom: 1px solid #cbb8b2; /* Updated border color */
+    color: #cbb8b2; /* Updated link color */
+}
+
+/* Topbar */
+.topbar {
+    background: rgba(200, 245, 212, 0.46); /* Adjusted to match background image */
+    border: 1px solid #000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.badge {
+    background: rgba(200, 245, 212, 0.46); /* Adjusted to match topbar */
+    border: 1px solid #000;
+}
+
+/* Navigational Bar */
+.main {
+    background: rgba(200, 245, 212, 0.36); /* Adjusted to match background image */
+    border: 1px solid #000;
+    box-shadow: none;
+}
+
+.navbar {
+    background: #cbb8b2; /* Updated navbar background color */
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #000;
+    background: #cbb8b2; /* Updated hover background color */
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+/* Sidebar */
+.sidebar {
+    background: rgba(200, 245, 212, 0.36); /* Adjusted to match background image */
+    border: 0px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    color: #000;
+}
+
+.col-md-3 .panel {
+    background: #cbb8b2; /* Updated panel background color */
+    border: 1px solid #000;
+    box-shadow: none;    
+}
+
+.progress-bar {
+    background: #FFB3AC;
+}
+
+.progress {
+    background: #EEF8E3;
+    border: 1px solid #000;
+}
+
+/* Chat */
+.chat_light, .chat_dark {
+    background: #cbb8b2; /* Updated chat background color */
+    font-size: 11px;
+    color: #000;
+}
+
+.chatContainer {
+    border: 1px solid #000;
+}
+
+.userstolen {
+    background: none;
+}
+
+.alert-danger {
+    color: #000;
+    background: #cbb8b2; /* Updated alert background color */
+    border: 1px solid #000;
+}
+
+.alert-success {
+    color: #000;
+    background: #cbb8b2; /* Updated alert background color */
+    border: 1px solid #000;
+}
+
+.breadcrumb {
+    background: #cbb8b2; /* Updated breadcrumb background color */
+    font-size: 13px;
+    border: 1px solid #000;
+}
+
+.breadcrumb>.active {
+    color: #000;
+}
+
+h2, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Carter One";
+    color: #cbb8b2; /* Updated heading color */
+}
+
+.col-md-9 {
+    background: none;
+    border: 0px solid #000;
+}
+
+/* Tables */
+#lion_image {
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+.table, .item {
+    border: 1px solid #000;
+    background: #cbb8b2; /* Updated table background color */
+    border-collapse: separate;
+}
+
+.table .right, .table .right_odd {
+    background: none;
+    border: 0px solid #000;
+}
+
+div .feature, .cave-grid, div .left, .mound-grid, .table .bottom, .table .top, .table th, .item-header, .item-footer {
+    border: 0px solid #000;
+    background: #FFB3AC;
+    color: #000;
+}
+
+.cave-grid, div .left, .mound-grid {
+    border: 1px solid #000;
+    background: #FFB3AC;
+    color: #000;
+}
+
+.table .left {
+    border: 1px solid #000;
+    background: #FFB3AC;
+    color: #000;
+}
+
+.inner-table .right {
+    background: #EEF8E3;
+    border: 1px solid #000;
+    border-left: none;
+}
+
+
